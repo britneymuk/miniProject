@@ -26,7 +26,7 @@ class WelcomeBox extends StatelessWidget {
         width: 230.0,
         height: 60.0,
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
               padding: EdgeInsets.only(right: 10.0),
@@ -41,7 +41,7 @@ class WelcomeBox extends StatelessWidget {
               style: TextStyle(
                 color: Color(0xff3166fd),
                 fontFamily: "MazzardH-Bold",
-                fontSize: 20.0,
+                fontSize: 18.0,
               ),
             )
           ],
